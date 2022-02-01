@@ -103,16 +103,16 @@ p.grid__intro--dark{
     line-height: 1.5;
     opacity: 50%;
 }
-h5.grid__personal--dark{
-    color: hsl(219, 29%, 14%);
-    opacity: 100%;
 
-}
 .grid__personal--role-dark{
     color: hsl(219, 29%, 14%);
     font-size: 0.8rem;
     margin-top: 0px;
     opacity: 50%;
+}
+.grid__item--3 h5, .grid__item--4 h5{
+    color: hsl(219, 29%, 14%);
+    opacity: 100%;
 }
 @media only screen and (max-width :620px){
   
