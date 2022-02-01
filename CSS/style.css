@@ -70,12 +70,9 @@ h5{
 }
 .grid__personal{
     display:flex;
-    height: 15% ;
-}
-.grid__personal--white{
-    display:flex;
     height: 2.25rem ;
 }
+
 .grid__personal--role{
     color: hsl(0, 0%, 81%);
     font-size: 0.8rem;
@@ -135,6 +132,9 @@ h5.grid__personal--dark{
     }
     .grid__item--1{
         grid-row:1;
+        background-image: url(../images/bg-pattern-quotation.svg);
+        background-position:90% 0;
+        background-size: 25%;
     }
     .grid__item--2{
         grid-row:2;
