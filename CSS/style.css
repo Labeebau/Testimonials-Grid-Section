@@ -123,6 +123,7 @@ h5.grid__personal--dark{
         grid-template-rows: auto auto auto auto auto;
         grid-template-columns: auto;
         margin-top:2rem ;
+        margin-bottom:2rem ;
 
     }
     .grid__item{
