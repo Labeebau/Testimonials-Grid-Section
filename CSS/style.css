@@ -1,0 +1,151 @@
+body{
+    background-color: hsl(210, 46%, 95%) ;
+    display: flex;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    justify-content: center;
+}
+main{
+    max-width: 1440px;
+}
+h3{
+    color: hsl(210, 46%, 95%);
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    opacity: 90%;
+}
+
+h5{
+    color: hsl(0, 0%, 81%);
+    margin-top: 0em;
+    margin-bottom: 0px;
+}
+.grid{
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+    display: grid;
+    gap: 1.5rem;
+    margin-top:10rem ;
+
+}
+.grid__item{
+    padding: 2rem;
+    height: 240px;  
+    width: 200px;
+}
+.grid__item--1{
+    background-color: hsl(263, 55%, 52%);
+    background-image: url(../images/bg-pattern-quotation.svg);
+    background-position:80% 0;
+    background-repeat: no-repeat;
+    border-radius: 0.5rem;
+    grid-column: 1/span 2;
+    grid-row:1;
+    width: 488px;
+
+}
+.grid__item--2{
+    background-color: hsl(217, 19%, 35%);
+    border-radius: 0.5rem;
+  
+}
+.grid__item--3{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 0.5rem;
+    grid-column: 4;
+    grid-row:1/span 2;
+    height:568px;
+}
+.grid__item--4{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 0.5rem;
+   
+}
+.grid__item--5{
+    background-color: hsl(219, 29%, 14%);
+    border-radius: 0.5rem;
+    grid-column: 2/span 3;
+    grid-row:2;
+    width: 488px;
+}
+.grid__personal{
+    display:flex;
+    height: 15% ;
+}
+.grid__personal--white{
+    display:flex;
+    height: 2.25rem ;
+}
+.grid__personal--role{
+    color: hsl(0, 0%, 81%);
+    font-size: 0.8rem;
+    margin-top: 0px;
+    opacity: 50%;
+}
+.grid__personal--img{
+    border-radius: 50%;
+    margin-right: 1em;
+}
+
+.grid__intro--details{
+    color: hsl(0, 0%, 81%);
+    font-size: .8rem;
+    font-weight: 500;
+    line-height: 1.5;
+    opacity: 70%;
+}
+h3.grid__intro--dark{
+    color: hsl(219, 29%, 14%);
+    font-size: 1.2rem;
+    opacity: 70%;
+}
+p.grid__intro--dark{
+    color: hsl(219, 29%, 14%);
+    font-size: .8rem;
+    font-weight: 500;
+    line-height: 1.5;
+    opacity: 50%;
+}
+h5.grid__personal--dark{
+    color: hsl(219, 29%, 14%);
+    opacity: 100%;
+
+}
+.grid__personal--role-dark{
+    color: hsl(219, 29%, 14%);
+    font-size: 0.8rem;
+    margin-top: 0px;
+    opacity: 50%;
+}
+@media only screen and (max-width :620px){
+  
+    main{
+        max-width: 375px;
+    }
+    .grid{
+        grid-template-rows: auto auto auto auto auto;
+        grid-template-columns: auto;
+        margin-top:2rem ;
+
+    }
+    .grid__item{
+        height: auto;
+        width: 200px;
+        grid-column: 1;
+    }
+    .grid__item--1{
+        grid-row:1;
+    }
+    .grid__item--2{
+        grid-row:2;
+    }
+    .grid__item--3{
+        grid-row:3;
+    }
+    .grid__item--4{
+        grid-row:4;
+    }
+    .grid__item--5{
+        grid-row:5;
+    }
+}
